@@ -1,0 +1,32 @@
+* {
+    text-align: center;
+    margin: 0 auto;
+}
+
+body {
+    background-color: lemonchiffon;
+}
+
+#game-board {
+    height: 606px;
+    width: 606px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    border: black solid 1px;
+    /* height: 200px;
+    width: 200px; */
+    height: 200px;
+    width: 200px;
+}
+
+.one {
+    background-color: blue;
+}
+
+.two {
+    background-color: tomato;
+}
